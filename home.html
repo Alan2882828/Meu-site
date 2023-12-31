@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>página de cauculos</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body class="contener_home">
+  
+    <div class="fundo_home">
+     <div class="fundo_input">
+    <input id="numero1" type="number" placeholder="número 1" required>
+    
+    <input id="operador" type="text" placeholder="operador" readonly>
+    
+    <input id="numero2" type="number" placeholder="número 2" required>
+    </div>
+    <br>
+    <p id="resultado_rpsta">Resposta:</p>
+    <br>
+    <button id="calcular" onclick="calculos()">=</button>
+    
+    <div class="operadores">
+   <button onclick="exibir_numero('+' , 'operador')" class="bnt">+</button>
+   <button onclick="exibir_numero('*' , 'operador')" class="bnt">*</button>
+   <button onclick="exibir_numero('/' , 'operador')" class="bnt">/</button>
+   
+
+      
+    </div>
+  </div>
+  
+<script src="teste.js"></script>
+</body>
+
+</html>
+

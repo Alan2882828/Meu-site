@@ -1,0 +1,101 @@
+.contener_home{
+display: flex;
+align-items: center;
+height: 100vh;
+justify-content: center;
+background: magenta;
+border: 7px solid #000000;
+border-radius: 10px;
+}
+.fundo_home{
+  text-align: center;
+}
+.fundo_input{
+  background: grey;
+}
+
+#numero1, #numero2{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  width: 100px;
+  height: 40px;
+  font-size: 4vw;
+  max-width: 100%;
+  border: 0px solid rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.5);
+}
+#operador{
+  color: blue;
+  margin: 0px;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  width: 60px;
+  height: 40;
+  text-align: center;
+  
+}
+#calcular{
+  margin-top: 10px;
+  background: grey;
+  height: 50px;
+  width: 100px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.operadores{
+  background-color: gray;
+  margin-top: 20px;
+  
+}
+.bnt{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+  height: 50px;
+  width: 120px;
+}
+#resultado_rpsta{
+  background: grey;
+  font-size: 4vw;
+  max-width: 100%;
+  height: 50;
+  color: lightgreen;
+}
+/* style login.  */
+
+.contener_login{
+  display: flex;
+align-items: center;
+height: 100vh;
+justify-content: center;
+background: magenta;
+border: 7px solid #000000;
+border-radius: 10px;
+padding: 0px;
+}
+.fundo_login{
+  background: gray;
+  padding: 10px;
+  border: 6px solid #000000;
+  border-radius: 7px;
+}
+#input_Email,#input_Password{
+  color: red;
+  margin: 14px;
+  border: 0px solid rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.5);
+}
+#botao_entrar{
+  background: black;
+  color: white;
+  margin-top: 12px;
+  height: 50px;
+  width: 100px;
+}
